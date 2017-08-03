@@ -1,0 +1,13 @@
+FAILURE - Test first-test-suite-munit_sampleFlowTest finished with a Failure.
+java.lang.AssertionError: expected:<Hello> but was:<Hello123>
+	at first-test-suite-munit_sampleFlowTest.munit:assert-on-equals{expectedValue=Hello, doc:name=Assert Equals, actualValue=Hello123}(first-test-suite.xml:12)
+	at munit_sampleFlow.mule:set-payload{doc:name=Set Payload, value=Hello123}(munit_sample.xml:12)
+	at first-test-suite-munit_sampleFlowTest.mule:flow{id=Flow$$EnhancerByMUNIT$$bb7e3368{munit_sampleFlow}, initialState=started}(munit_sample.xml:10)
+	at first-test-suite-munit_sampleFlowTest.mule:flow-ref{doc:name=Flow-ref to munit_sampleFlow}(first-test-suite.xml:11)
+	at first-test-suite-munit_sampleFlowTest.munit:test{id=MunitTestFlow$$EnhancerByMUNIT$$904837f0{first-test-suite-munit_sampleFlowTest}, abstract=false, description=Test, initialState=started, ignore=false}(first-test-suite.xml:10)
+
+
+null
+=============================================================================
+Tests run: 1 - Failures: 1 - Errors: 0 - Skipped: 0 - Time elapsed: 0.304 sec
+=============================================================================

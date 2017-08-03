@@ -1,0 +1,67 @@
+<testsuite name="first-test-suite" time="0.304" failures="1" errors="0" skipped="0" tests="1">
+  <properties>
+    <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_40\jre\bin"/>
+    <property key="java.vm.version" value="24.0-b56"/>
+    <property key="maven.multiModuleProjectDirectory" value="E:\Chellamaruthu.Periyasamy\MuleSoft\Explorations\Workspace_MUnit\munit_sample"/>
+    <property key="java.vm.vendor" value="Oracle Corporation"/>
+    <property key="java.vendor.url" value="http://java.oracle.com/"/>
+    <property key="guice.disable.misplaced.annotation.check" value="true"/>
+    <property key="path.separator" value=";"/>
+    <property key="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property key="file.encoding.pkg" value="sun.io"/>
+    <property key="user.country" value="US"/>
+    <property key="user.script" value=""/>
+    <property key="sun.java.launcher" value="SUN_STANDARD"/>
+    <property key="sun.os.patch.level" value=""/>
+    <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property key="user.dir" value="E:\Chellamaruthu.Periyasamy\MuleSoft\Explorations\Workspace_MUnit\munit_sample"/>
+    <property key="java.runtime.version" value="1.7.0_40-b43"/>
+    <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property key="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_40\jre\lib\endorsed"/>
+    <property key="os.arch" value="amd64"/>
+    <property key="java.io.tmpdir" value="C:\Users\CHELLA~1.PER\AppData\Local\Temp\"/>
+    <property key="line.separator" value="&#xd;&#xa;"/>
+    <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property key="user.variant" value=""/>
+    <property key="os.name" value="Windows 8"/>
+    <property key="classworlds.conf" value="D:\Chellamaruthu.Periyasamy\Softwares\apache-maven-3.3.9\bin\m2.conf"/>
+    <property key="sun.jnu.encoding" value="Cp1252"/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk1.7.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ZipGenius 6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Java\jdk1.7.0_40;D:\Chellamaruthu.Periyasamy\Softwares\apache-maven-3.3.9\bin;."/>
+    <property key="java.specification.name" value="Java Platform API Specification"/>
+    <property key="java.class.version" value="51.0"/>
+    <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property key="os.version" value="6.2"/>
+    <property key="user.home" value="C:\Users\chellamaruthu.periya"/>
+    <property key="user.timezone" value="Asia/Calcutta"/>
+    <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property key="file.encoding" value="Cp1252"/>
+    <property key="java.specification.version" value="1.7"/>
+    <property key="java.class.path" value="D:\Chellamaruthu.Periyasamy\Softwares\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property key="user.name" value="chellamaruthu.periya"/>
+    <property key="java.vm.specification.version" value="1.7"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property key="java.home" value="C:\Program Files\Java\jdk1.7.0_40\jre"/>
+    <property key="sun.arch.data.model" value="64"/>
+    <property key="user.language" value="en"/>
+    <property key="java.specification.vendor" value="Oracle Corporation"/>
+    <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property key="java.vm.info" value="mixed mode"/>
+    <property key="java.version" value="1.7.0_40"/>
+    <property key="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property key="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_40\jre\classes"/>
+    <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="maven.home" value="D:\Chellamaruthu.Periyasamy\Softwares\apache-maven-3.3.9"/>
+    <property key="file.separator" value="\"/>
+    <property key="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property key="sun.cpu.endian" value="little"/>
+    <property key="sun.desktop" value="windows"/>
+    <property key="sun.cpu.isalist" value="amd64"/>
+    <property key="mule.working.dir" value="E:\Chellamaruthu.Periyasamy\MuleSoft\Explorations\Workspace_MUnit\munit_sample\target\.mule"/>
+    <property key="mule.testingMode" value="true"/>
+  </properties>
+  <testcase time="0.09" name="first-test-suite-munit_sampleFlowTest" classname="first-test-suite">
+    <failure><![CDATA[java.lang.AssertionError: expected:<Hello> but was:<Hello123>&#10;&#9;at first-test-suite-munit_sampleFlowTest.munit:assert-on-equals{expectedValue=Hello, doc:name=Assert Equals, actualValue=Hello123}(first-test-suite.xml:12)&#10;&#9;at munit_sampleFlow.mule:set-payload{doc:name=Set Payload, value=Hello123}(munit_sample.xml:12)&#10;&#9;at first-test-suite-munit_sampleFlowTest.mule:flow{id=Flow$$EnhancerByMUNIT$$bb7e3368{munit_sampleFlow}, initialState=started}(munit_sample.xml:10)&#10;&#9;at first-test-suite-munit_sampleFlowTest.mule:flow-ref{doc:name=Flow-ref to munit_sampleFlow}(first-test-suite.xml:11)&#10;&#9;at first-test-suite-munit_sampleFlowTest.munit:test{id=MunitTestFlow$$EnhancerByMUNIT$$904837f0{first-test-suite-munit_sampleFlowTest}, abstract=false, description=Test, initialState=started, ignore=false}(first-test-suite.xml:10)&#10;]]></failure>
+  </testcase>
+</testsuite>
