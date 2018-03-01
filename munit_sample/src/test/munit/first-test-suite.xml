@@ -11,4 +11,12 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
         <flow-ref name="munit_sampleFlow" doc:name="Flow-ref to munit_sampleFlow"/>
         <munit:assert-on-equals expectedValue="#['Hello!! Welcome!! Team for Demo!!!']" actualValue="#[payload]" doc:name="Assert Equals"/>
     </munit:test>
+     <munit:test name="first-test-suite-munit_sampleFlowTest" description="Test2">
+        <flow-ref name="munit_sampleFlow" doc:name="Flow-ref to munit_sampleFlow"/>
+        <munit:assert-on-equals expectedValue="#['Hello!! Welcome!! Team for Demo!!!']" actualValue="#[payload]" doc:name="Assert Equals"/>
+    </munit:test>
+     <munit:test name="first-test-suite-munit_sampleFlowTest" description="Test3">
+        <flow-ref name="munit_sampleFlow" doc:name="Flow-ref to munit_sampleFlow"/>
+        <munit:assert-on-equals expectedValue="#['Hello!! Welcome!! Team for Demo!!!']" actualValue="#[payload]" doc:name="Assert Equals"/>
+    </munit:test>
 </mule>
