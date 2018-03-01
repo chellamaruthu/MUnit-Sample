@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="${http.port}" doc:name="HTTP Listener Configuration"/>
     <flow name="munit_sampleFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/munit" doc:name="HTTP"/>
-        <set-payload value="#['Hello!! Welcome!! Team for Demo123!!!']" doc:name="Set Payload"/>
+        <set-payload value="#['Hello!! Welcome!! Team for Demo!!!']" doc:name="Set Payload"/>
     </flow>
 </mule>
